@@ -1,0 +1,6 @@
+framework module OpayFingerPrint {
+  umbrella header "OpayFingerPrint-umbrella.h"
+
+  export *
+  module * { export * }
+}

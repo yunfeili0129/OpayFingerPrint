@@ -1,0 +1,16 @@
+PODS:
+  - OpayFingerPrint (0.1.0)
+
+DEPENDENCIES:
+  - OpayFingerPrint (from `../`)
+
+EXTERNAL SOURCES:
+  OpayFingerPrint:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpayFingerPrint: 834fc8ca0a616204a65ac5d731f8785339fa812d
+
+PODFILE CHECKSUM: 081289187c13ce608692d2766c05c6e2df3865bd
+
+COCOAPODS: 1.11.2
