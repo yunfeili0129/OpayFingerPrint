@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		24A1805A7B0FBF404D332271 /* Pods-OpayFingerPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpayFingerPrint_Example.release.xcconfig"; path = "Target Support Files/Pods-OpayFingerPrint_Example/Pods-OpayFingerPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
-		378C881530B2785BBAAD69D1 /* OpayFingerPrint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OpayFingerPrint.podspec; path = ../OpayFingerPrint.podspec; sourceTree = "<group>"; };
-		453A5C3989982E6D337D596D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		378C881530B2785BBAAD69D1 /* OpayFingerPrint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OpayFingerPrint.podspec; path = ../OpayFingerPrint.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		453A5C3989982E6D337D596D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		56E5906514DF77183F4D06D0 /* Pods-OpayFingerPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpayFingerPrint_Tests.release.xcconfig"; path = "Target Support Files/Pods-OpayFingerPrint_Tests/Pods-OpayFingerPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OpayFingerPrint_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpayFingerPrint_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		695D33376221B7792AF9C952 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		695D33376221B7792AF9C952 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98939CB4F8E177A8414DB962 /* Pods_OpayFingerPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpayFingerPrint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				CE2BCE15E9477CD2366ACDFC /* Pods-OpayFingerPrint_Tests.debug.xcconfig */,
 				56E5906514DF77183F4D06D0 /* Pods-OpayFingerPrint_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
