@@ -19,15 +19,24 @@ typedef enum : NSUInteger {
 } initStatus;
 @protocol  OpayDeviceToolProtocol<NSObject>
 
+@optional
+
 -(void)startCallBack:(NSString*)blackBox;
 
 @end
+
 @interface OpayDeviceTool : NSObject
+
 +(instancetype)instance;
+
 -(void)startOptions:(OpayDeviceOptions*)options delegate:(id)delegate;
+
 -(NSString *)getDeviceBlackBox;
+
 -(initStatus)getDeviceStatus;
+
 @property(nonatomic,weak)id<OpayDeviceToolProtocol>delegate;
+
 @end
 
 NS_ASSUME_NONNULL_END
