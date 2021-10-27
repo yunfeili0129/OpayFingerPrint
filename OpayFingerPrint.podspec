@@ -36,7 +36,9 @@ Pod::Spec.new do |s|
   #   'OpayFingerPrint' => ['OpayFingerPrint/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'OpayFingerPrint/Classes/OpayDeviceTool.h'
+  s.libraries = 'resolv.9'
+  s.vendored_libraries = 'libFMDeviceManager.a'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

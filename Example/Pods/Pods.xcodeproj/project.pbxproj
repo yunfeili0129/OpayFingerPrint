@@ -7,85 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E84941C309CE5343737EE781718745 /* OpayFingerPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1DD63D67BF79C0E1FAB84C5545239A /* OpayFingerPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A55A8C887EC1D689BB5CEE8559D8D44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		18C18080349786AE93FAA6CD99DD4981 /* OpayDeviceOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FEC8266A431A1ED4144FA21BF97E60 /* OpayDeviceOptions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3095996BD9F1B270102C0A4111014C16 /* OpayDeviceTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 647F32862D95F56E337C66E06564045B /* OpayDeviceTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9FDF4D23D331CA5B502F33DEF11E67 /* OpayDeviceOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BCC0A455CDF9CFD791FDED5B67C99 /* OpayDeviceOptions.m */; };
 		4DA07EF9A6C2067501196978B7D972A6 /* Pods-OpayFingerPrint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EDB835EFA935E3AA970C92B9D214A6 /* Pods-OpayFingerPrint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		597DB948811DF3C6A0F598CBA27D1207 /* OpayFingerPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F08996C0ED9414B85DA628CDBE234E71 /* OpayFingerPrint-dummy.m */; };
+		6FE0705A07DEA2CB9A7742881704E1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		717D00DE61CF2A906168F9D0AEFC21A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8003BFAD13E3AA44E1E4109FFD7F8116 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EEEA82510DE34CD7475A54F57DE05 /* ReplaceMe.m */; };
+		92CF564202C88A0F191AD9A5E7FE4762 /* OpayFingerPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE519E6E5A206D12B878F3A55645756C /* OpayFingerPrint-dummy.m */; };
 		A4AF361A211C792AC87D3D68D898A969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DA509352AD5BAFD542FEE1FB9D84E016 /* Pods-OpayFingerPrint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5E0DCBFD994692998EB7C2C91F66D5 /* Pods-OpayFingerPrint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23DAE7B89A9FF3EA1B4F5EB8419E274 /* OpayDeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E132FA95D742CFDB3C3EE8F915BDA5 /* OpayDeviceTool.m */; };
 		E7D9F9A8E0682F3E722D6C76A0B2937F /* Pods-OpayFingerPrint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2CFDE46472B8CAF75EF4D3DD401639 /* Pods-OpayFingerPrint_Example-dummy.m */; };
+		EC72C9610519CE6DF6A186672C689C2B /* OpayFingerPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDF8D8BB7C1161C8E3A384B40E43BF0 /* OpayFingerPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F297E1C50E8F17BE7C27FD9353058B82 /* Pods-OpayFingerPrint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D4E946D5D7E3512FBCB1065A6E982 /* Pods-OpayFingerPrint_Tests-dummy.m */; };
+		FCC5579DDC41D9FD8FAAE3644A9A9029 /* FMDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA049587F73D70AF471CB6562DBA77D9 /* FMDeviceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C856E5BE599A75E9799EEA4358707BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3583B3621BDADA5DD64E6268752188C7;
-			remoteInfo = OpayFingerPrint;
-		};
-		6E28F9A0E2B09F91AFF9525775A1981C /* PBXContainerItemProxy */ = {
+		9AB526A9F3C49D1A6EB29D15A412BE7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B24CD9963FC68CE7B9A5223859C93E2C;
 			remoteInfo = "Pods-OpayFingerPrint_Example";
 		};
+		C820AC698AA7D8F69B05D9F66A90C62A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3583B3621BDADA5DD64E6268752188C7;
+			remoteInfo = OpayFingerPrint;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CDF8D8BB7C1161C8E3A384B40E43BF0 /* OpayFingerPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpayFingerPrint-umbrella.h"; sourceTree = "<group>"; };
+		0D3BCC0A455CDF9CFD791FDED5B67C99 /* OpayDeviceOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpayDeviceOptions.m; path = OpayFingerPrint/Classes/OpayDeviceOptions.m; sourceTree = "<group>"; };
 		0F3EAE86665C6C226BAB1B16D5FFBD24 /* OpayFingerPrint */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpayFingerPrint; path = OpayFingerPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		204AD4BA2E319453D70889AC68B92361 /* OpayFingerPrint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpayFingerPrint.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		205FA65FF192F4555062A3333EE625A9 /* OpayFingerPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpayFingerPrint.debug.xcconfig; sourceTree = "<group>"; };
+		2D1FABDA6C04FD9B0D633145A3116B2C /* OpayFingerPrint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpayFingerPrint-Info.plist"; sourceTree = "<group>"; };
 		34E4E28A5F1A7B7FD8DE6D5439AEC576 /* Pods-OpayFingerPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpayFingerPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3A1DD63D67BF79C0E1FAB84C5545239A /* OpayFingerPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpayFingerPrint-umbrella.h"; sourceTree = "<group>"; };
 		3A856CA11272298CBC1666663867FF84 /* Pods-OpayFingerPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpayFingerPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B7CCFD9A2D540C04AF379B878BC431E /* Pods-OpayFingerPrint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpayFingerPrint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		428BB9F032445A5CD6E7F74DCC80E962 /* Pods-OpayFingerPrint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpayFingerPrint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E5E0DCBFD994692998EB7C2C91F66D5 /* Pods-OpayFingerPrint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpayFingerPrint_Tests-umbrella.h"; sourceTree = "<group>"; };
-		58D2DF6AAC619F03A3446C042C0C6474 /* OpayFingerPrint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpayFingerPrint-Info.plist"; sourceTree = "<group>"; };
-		63FFBED07D620AFDA1C86778E52E7DA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6577A5AFAC9D0DDC155FA2509D21D84E /* OpayFingerPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpayFingerPrint-prefix.pch"; sourceTree = "<group>"; };
+		647F32862D95F56E337C66E06564045B /* OpayDeviceTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpayDeviceTool.h; path = OpayFingerPrint/Classes/OpayDeviceTool.h; sourceTree = "<group>"; };
+		651FC69EC04D491A1DE1B9D8EB09CBD7 /* libFMDeviceManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libFMDeviceManager.a; sourceTree = "<group>"; };
 		68A8B25BC516A84AEBF89825324602F0 /* Pods-OpayFingerPrint_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpayFingerPrint_Tests-Info.plist"; sourceTree = "<group>"; };
 		6B3B9E2309AAC758BEFD4A41CB9505B6 /* Pods-OpayFingerPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpayFingerPrint_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8269F11F360BDDEAB1A4BEADAE1B2072 /* Pods-OpayFingerPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpayFingerPrint_Tests.modulemap"; sourceTree = "<group>"; };
 		83EDB835EFA935E3AA970C92B9D214A6 /* Pods-OpayFingerPrint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpayFingerPrint_Example-umbrella.h"; sourceTree = "<group>"; };
+		87873002966D15B1DDF2EC1A5E467E7C /* OpayFingerPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpayFingerPrint.modulemap; sourceTree = "<group>"; };
 		93A155AD1D97DEB1C89D188B6F681791 /* Pods-OpayFingerPrint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpayFingerPrint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		959D4E946D5D7E3512FBCB1065A6E982 /* Pods-OpayFingerPrint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpayFingerPrint_Tests-dummy.m"; sourceTree = "<group>"; };
 		97D13A66ABA60C572F6EEEF89015E8B0 /* Pods-OpayFingerPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpayFingerPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99B7E456B1568F6BF8E1B88EC347CE80 /* Pods-OpayFingerPrint_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpayFingerPrint_Tests"; path = Pods_OpayFingerPrint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B96EC5CE346845F376689FD33D0173B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D2CFDE46472B8CAF75EF4D3DD401639 /* Pods-OpayFingerPrint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpayFingerPrint_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADDFC807264A953BAFC099CB7BE64FB6 /* OpayFingerPrint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpayFingerPrint.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B2B7FE2865D06969A8B4A225B4597814 /* OpayFingerPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpayFingerPrint.modulemap; sourceTree = "<group>"; };
-		B50DC983F494141567213444C9DB9BA9 /* OpayFingerPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpayFingerPrint.release.xcconfig; sourceTree = "<group>"; };
+		9DAF88B3948AEE06EFB4F3AD0EDA1EDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2FC09E509A0AC0CAFA17BA634B555C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A2FEC8266A431A1ED4144FA21BF97E60 /* OpayDeviceOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpayDeviceOptions.h; path = OpayFingerPrint/Classes/OpayDeviceOptions.h; sourceTree = "<group>"; };
 		B5668C7C7DBAB294CCB0915717683D7B /* Pods-OpayFingerPrint_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpayFingerPrint_Example-Info.plist"; sourceTree = "<group>"; };
 		B7D4903E15F512C36FB80E0528B81ED7 /* Pods-OpayFingerPrint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpayFingerPrint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8E132FA95D742CFDB3C3EE8F915BDA5 /* OpayDeviceTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpayDeviceTool.m; path = OpayFingerPrint/Classes/OpayDeviceTool.m; sourceTree = "<group>"; };
+		BA6D4E51F2BC98A891DCD64BCE5328F9 /* OpayFingerPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpayFingerPrint.release.xcconfig; sourceTree = "<group>"; };
 		DE7752AEFD56E5D470389AA37A40E6E9 /* Pods-OpayFingerPrint_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpayFingerPrint_Example"; path = Pods_OpayFingerPrint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE93E1A9672B7CDF092465CBA743220A /* Pods-OpayFingerPrint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpayFingerPrint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E143AC20BFDE4A8B6442732B7CA7BB04 /* Pods-OpayFingerPrint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpayFingerPrint_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F08996C0ED9414B85DA628CDBE234E71 /* OpayFingerPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpayFingerPrint-dummy.m"; sourceTree = "<group>"; };
-		F2ECC05069D3792C7CEB4817CF0B101B /* OpayFingerPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpayFingerPrint.debug.xcconfig; sourceTree = "<group>"; };
-		F76EEEA82510DE34CD7475A54F57DE05 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OpayFingerPrint/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EA049587F73D70AF471CB6562DBA77D9 /* FMDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDeviceManager.h; path = OpayFingerPrint/Classes/FMDeviceManager.h; sourceTree = "<group>"; };
+		EC68655E337CDF7357A7E0B55A9F6BF9 /* OpayFingerPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpayFingerPrint-prefix.pch"; sourceTree = "<group>"; };
+		EE519E6E5A206D12B878F3A55645756C /* OpayFingerPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpayFingerPrint-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02F0DDB22135513874E552091F50715D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A55A8C887EC1D689BB5CEE8559D8D44 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		054CC4B2AED88F2FAB76E7EABFBEA40C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4AF361A211C792AC87D3D68D898A969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FD62C9387CF6D2ECAE12AF87F95332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE0705A07DEA2CB9A7742881704E1C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,23 +118,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		33EED0D85156EFB7DB642542C755CA34 /* Development Pods */ = {
+		46722EE04FFAD05DE484E4D676A7481A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				55421021E43B1908017785EABA17C2B4 /* OpayFingerPrint */,
+				87873002966D15B1DDF2EC1A5E467E7C /* OpayFingerPrint.modulemap */,
+				EE519E6E5A206D12B878F3A55645756C /* OpayFingerPrint-dummy.m */,
+				2D1FABDA6C04FD9B0D633145A3116B2C /* OpayFingerPrint-Info.plist */,
+				EC68655E337CDF7357A7E0B55A9F6BF9 /* OpayFingerPrint-prefix.pch */,
+				0CDF8D8BB7C1161C8E3A384B40E43BF0 /* OpayFingerPrint-umbrella.h */,
+				205FA65FF192F4555062A3333EE625A9 /* OpayFingerPrint.debug.xcconfig */,
+				BA6D4E51F2BC98A891DCD64BCE5328F9 /* OpayFingerPrint.release.xcconfig */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		55421021E43B1908017785EABA17C2B4 /* OpayFingerPrint */ = {
-			isa = PBXGroup;
-			children = (
-				F76EEEA82510DE34CD7475A54F57DE05 /* ReplaceMe.m */,
-				74CB02981624458F7E8F6598FF60397C /* Pod */,
-				B8B1F485D8305994D297B527F4AE18D5 /* Support Files */,
-			);
-			name = OpayFingerPrint;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpayFingerPrint";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -136,12 +141,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		74CB02981624458F7E8F6598FF60397C /* Pod */ = {
+		75E95B7D6A773729365884A441C6D877 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				63FFBED07D620AFDA1C86778E52E7DA3 /* LICENSE */,
-				ADDFC807264A953BAFC099CB7BE64FB6 /* OpayFingerPrint.podspec */,
-				9B96EC5CE346845F376689FD33D0173B /* README.md */,
+				A2FC09E509A0AC0CAFA17BA634B555C5 /* LICENSE */,
+				204AD4BA2E319453D70889AC68B92361 /* OpayFingerPrint.podspec */,
+				9DAF88B3948AEE06EFB4F3AD0EDA1EDE /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -189,26 +194,19 @@
 			path = "Target Support Files/Pods-OpayFingerPrint_Example";
 			sourceTree = "<group>";
 		};
-		B8B1F485D8305994D297B527F4AE18D5 /* Support Files */ = {
+		BE47B1CBB9BF01F642F2BC16E79F318B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2B7FE2865D06969A8B4A225B4597814 /* OpayFingerPrint.modulemap */,
-				F08996C0ED9414B85DA628CDBE234E71 /* OpayFingerPrint-dummy.m */,
-				58D2DF6AAC619F03A3446C042C0C6474 /* OpayFingerPrint-Info.plist */,
-				6577A5AFAC9D0DDC155FA2509D21D84E /* OpayFingerPrint-prefix.pch */,
-				3A1DD63D67BF79C0E1FAB84C5545239A /* OpayFingerPrint-umbrella.h */,
-				F2ECC05069D3792C7CEB4817CF0B101B /* OpayFingerPrint.debug.xcconfig */,
-				B50DC983F494141567213444C9DB9BA9 /* OpayFingerPrint.release.xcconfig */,
+				DC557264FDD76AF726C6EB6C4D20CD52 /* OpayFingerPrint */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OpayFingerPrint";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				33EED0D85156EFB7DB642542C755CA34 /* Development Pods */,
+				BE47B1CBB9BF01F642F2BC16E79F318B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7D0AFA4E8AF7419F13B4E42958823892 /* Products */,
 				0C4C78A3E50AA7E00E3B6068908BFA42 /* Targets Support Files */,
@@ -223,22 +221,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D439B1503407A5647F0B61992978F716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651FC69EC04D491A1DE1B9D8EB09CBD7 /* libFMDeviceManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC557264FDD76AF726C6EB6C4D20CD52 /* OpayFingerPrint */ = {
+			isa = PBXGroup;
+			children = (
+				EA049587F73D70AF471CB6562DBA77D9 /* FMDeviceManager.h */,
+				A2FEC8266A431A1ED4144FA21BF97E60 /* OpayDeviceOptions.h */,
+				0D3BCC0A455CDF9CFD791FDED5B67C99 /* OpayDeviceOptions.m */,
+				647F32862D95F56E337C66E06564045B /* OpayDeviceTool.h */,
+				B8E132FA95D742CFDB3C3EE8F915BDA5 /* OpayDeviceTool.m */,
+				D439B1503407A5647F0B61992978F716 /* Frameworks */,
+				75E95B7D6A773729365884A441C6D877 /* Pod */,
+				46722EE04FFAD05DE484E4D676A7481A /* Support Files */,
+			);
+			name = OpayFingerPrint;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		132D19F56736187D6E091AA4ED67B275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC5579DDC41D9FD8FAAE3644A9A9029 /* FMDeviceManager.h in Headers */,
+				18C18080349786AE93FAA6CD99DD4981 /* OpayDeviceOptions.h in Headers */,
+				3095996BD9F1B270102C0A4111014C16 /* OpayDeviceTool.h in Headers */,
+				EC72C9610519CE6DF6A186672C689C2B /* OpayFingerPrint-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31F6E8D46FB04C25BCFBC559E386B46E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4DA07EF9A6C2067501196978B7D972A6 /* Pods-OpayFingerPrint_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5BDBCC8DC9C3A9F7410B6EE615998D5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00E84941C309CE5343737EE781718745 /* OpayFingerPrint-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +280,12 @@
 /* Begin PBXNativeTarget section */
 		3583B3621BDADA5DD64E6268752188C7 /* OpayFingerPrint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D37103579C26D2E1FD9E847F7A617DBC /* Build configuration list for PBXNativeTarget "OpayFingerPrint" */;
+			buildConfigurationList = F6202295E41892A836657CC87168C68B /* Build configuration list for PBXNativeTarget "OpayFingerPrint" */;
 			buildPhases = (
-				B5BDBCC8DC9C3A9F7410B6EE615998D5 /* Headers */,
-				038EBBC11A86FE383C35D36F71F8D58A /* Sources */,
-				02F0DDB22135513874E552091F50715D /* Frameworks */,
-				57D18DFC115FDE90DBB61761731AC602 /* Resources */,
+				132D19F56736187D6E091AA4ED67B275 /* Headers */,
+				3118D7AAA0F557681DCD77D6A0B3C61A /* Sources */,
+				E3FD62C9387CF6D2ECAE12AF87F95332 /* Frameworks */,
+				99145795A96314C405CC433C3D51D07F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +308,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B38C43E47B8F74B8A68A6AF57828B82C /* PBXTargetDependency */,
+				B1E70E68F1B159006EFFD7279C349C48 /* PBXTargetDependency */,
 			);
 			name = "Pods-OpayFingerPrint_Example";
 			productName = Pods_OpayFingerPrint_Example;
@@ -302,7 +327,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B0D2DB04548267079A913078A8E92933 /* PBXTargetDependency */,
+				7C45E79FE9EE302E70DCF1B9C31396BA /* PBXTargetDependency */,
 			);
 			name = "Pods-OpayFingerPrint_Tests";
 			productName = Pods_OpayFingerPrint_Tests;
@@ -339,14 +364,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		57D18DFC115FDE90DBB61761731AC602 /* Resources */ = {
+		7AC98A43115C58E0F588D659D0A92588 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AC98A43115C58E0F588D659D0A92588 /* Resources */ = {
+		99145795A96314C405CC433C3D51D07F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +388,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		038EBBC11A86FE383C35D36F71F8D58A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				597DB948811DF3C6A0F598CBA27D1207 /* OpayFingerPrint-dummy.m in Sources */,
-				8003BFAD13E3AA44E1E4109FFD7F8116 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0D8D2B654F323C6E05532181F92A06EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F297E1C50E8F17BE7C27FD9353058B82 /* Pods-OpayFingerPrint_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118D7AAA0F557681DCD77D6A0B3C61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9FDF4D23D331CA5B502F33DEF11E67 /* OpayDeviceOptions.m in Sources */,
+				E23DAE7B89A9FF3EA1B4F5EB8419E274 /* OpayDeviceTool.m in Sources */,
+				92CF564202C88A0F191AD9A5E7FE4762 /* OpayFingerPrint-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +417,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B0D2DB04548267079A913078A8E92933 /* PBXTargetDependency */ = {
+		7C45E79FE9EE302E70DCF1B9C31396BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OpayFingerPrint_Example";
 			target = B24CD9963FC68CE7B9A5223859C93E2C /* Pods-OpayFingerPrint_Example */;
-			targetProxy = 6E28F9A0E2B09F91AFF9525775A1981C /* PBXContainerItemProxy */;
+			targetProxy = 9AB526A9F3C49D1A6EB29D15A412BE7E /* PBXContainerItemProxy */;
 		};
-		B38C43E47B8F74B8A68A6AF57828B82C /* PBXTargetDependency */ = {
+		B1E70E68F1B159006EFFD7279C349C48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OpayFingerPrint;
 			target = 3583B3621BDADA5DD64E6268752188C7 /* OpayFingerPrint */;
-			targetProxy = 3C856E5BE599A75E9799EEA4358707BF /* PBXContainerItemProxy */;
+			targetProxy = C820AC698AA7D8F69B05D9F66A90C62A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,9 +498,9 @@
 			};
 			name = Debug;
 		};
-		39D468E65ADCC3CA6D81CB117215477A /* Debug */ = {
+		3E829506390AC900B84C245099E93233 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2ECC05069D3792C7CEB4817CF0B101B /* OpayFingerPrint.debug.xcconfig */;
+			baseConfigurationReference = BA6D4E51F2BC98A891DCD64BCE5328F9 /* OpayFingerPrint.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -497,10 +523,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		67C07B9E18B953F93CE547213DD8725F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -600,6 +627,36 @@
 			};
 			name = Release;
 		};
+		95D9356B655A263AECFD7FD2A2E96972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205FA65FF192F4555062A3333EE625A9 /* OpayFingerPrint.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpayFingerPrint/OpayFingerPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpayFingerPrint/OpayFingerPrint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpayFingerPrint/OpayFingerPrint.modulemap";
+				PRODUCT_MODULE_NAME = OpayFingerPrint;
+				PRODUCT_NAME = OpayFingerPrint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -694,37 +751,6 @@
 			};
 			name = Debug;
 		};
-		ECD43630773B0B73E031360A75173F5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B50DC983F494141567213444C9DB9BA9 /* OpayFingerPrint.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpayFingerPrint/OpayFingerPrint-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpayFingerPrint/OpayFingerPrint-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpayFingerPrint/OpayFingerPrint.modulemap";
-				PRODUCT_MODULE_NAME = OpayFingerPrint;
-				PRODUCT_NAME = OpayFingerPrint;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -746,11 +772,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D37103579C26D2E1FD9E847F7A617DBC /* Build configuration list for PBXNativeTarget "OpayFingerPrint" */ = {
+		F6202295E41892A836657CC87168C68B /* Build configuration list for PBXNativeTarget "OpayFingerPrint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39D468E65ADCC3CA6D81CB117215477A /* Debug */,
-				ECD43630773B0B73E031360A75173F5F /* Release */,
+				95D9356B655A263AECFD7FD2A2E96972 /* Debug */,
+				3E829506390AC900B84C245099E93233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

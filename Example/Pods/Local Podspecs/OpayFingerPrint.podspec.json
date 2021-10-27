@@ -1,22 +1,25 @@
 {
   "name": "OpayFingerPrint",
-  "version": "0.1.0",
-  "summary": "A short description of OpayFingerPrint.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "OpayFingerPrint指纹",
+  "description": "OpayFingerPrint",
   "homepage": "https://github.com/yunfeili0129@gmail.com/OpayFingerPrint",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yunfeili0129@gmail.com": "yunfeili0129@gmail.com"
+    "yunfeili0129": "yunfeili0129@gmail.com"
   },
   "source": {
-    "git": "https://github.com/yunfeili0129@gmail.com/OpayFingerPrint.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yunfeili0129/OpayFingerPrint.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "OpayFingerPrint/Classes/**/*"
+  "source_files": "OpayFingerPrint/Classes/**/*",
+  "public_header_files": "OpayFingerPrint/Classes/OpayDeviceTool.h",
+  "libraries": "resolv.9",
+  "vendored_libraries": "libFMDeviceManager.a"
 }
