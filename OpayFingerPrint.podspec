@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   OpayFingerPrint
                        DESC
 
-  s.homepage         = 'https://github.com/yunfeili0129@gmail.com/OpayFingerPrint'
+  s.homepage         = 'https://github.com/yunfeili0129/OpayFingerPrint'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yunfeili0129' => 'yunfeili0129@gmail.com' }
@@ -37,8 +37,9 @@ Pod::Spec.new do |s|
   # }
 
   s.public_header_files = 'OpayFingerPrint/Classes/OpayDeviceTool.h'
-  s.libraries = 'resolv.9'
+  s.library = 'resolv.9'
   s.vendored_libraries = 'libFMDeviceManager.a'
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

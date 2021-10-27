@@ -1,6 +1,6 @@
 {
   "name": "OpayFingerPrint",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "OpayFingerPrint指纹",
   "description": "OpayFingerPrint",
   "homepage": "https://github.com/yunfeili0129@gmail.com/OpayFingerPrint",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yunfeili0129/OpayFingerPrint.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,5 +21,8 @@
   "source_files": "OpayFingerPrint/Classes/**/*",
   "public_header_files": "OpayFingerPrint/Classes/OpayDeviceTool.h",
   "libraries": "resolv.9",
-  "vendored_libraries": "libFMDeviceManager.a"
+  "vendored_libraries": "libFMDeviceManager.a",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS[sdk=iphonesimulator*]": ""
+  }
 }
