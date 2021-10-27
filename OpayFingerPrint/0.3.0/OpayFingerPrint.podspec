@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   OpayFingerPrint
                        DESC
 
-  s.homepage         = 'https://github.com/yunfeili0129@gmail.com/OpayFingerPrint'
+  s.homepage         = 'https://github.com/yunfeili0129/OpayFingerPrint'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yunfeili0129' => 'yunfeili0129@gmail.com' }
