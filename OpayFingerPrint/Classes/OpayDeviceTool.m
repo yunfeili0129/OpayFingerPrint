@@ -7,7 +7,6 @@
 
 #import "OpayDeviceTool.h"
 #import "FMDeviceManager.h"
-#import "OpayDeviceOptions.h"
 @interface OpayDeviceTool()
 {
     FMDeviceManager_t *manager;

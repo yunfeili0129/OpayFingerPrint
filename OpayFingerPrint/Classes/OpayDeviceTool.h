@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OpayDeviceOptions.h"
 @class OpayDeviceOptions;
 NS_ASSUME_NONNULL_BEGIN
 typedef enum : NSUInteger {

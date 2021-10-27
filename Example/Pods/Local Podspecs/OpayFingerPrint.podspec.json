@@ -1,6 +1,6 @@
 {
   "name": "OpayFingerPrint",
-  "version": "0.6.0",
+  "version": "0.8.0",
   "summary": "OpayFingerPrint指纹",
   "description": "OpayFingerPrint",
   "homepage": "https://github.com/yunfeili0129/OpayFingerPrint",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yunfeili0129/OpayFingerPrint.git",
-    "tag": "0.6.0"
+    "tag": "0.8.0"
   },
   "platforms": {
     "ios": "9.0"
