@@ -1,5 +1,5 @@
 PODS:
-  - OpayFingerPrint (1.0.1)
+  - OpayFingerPrint (1.0.3)
 
 DEPENDENCIES:
   - OpayFingerPrint (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OpayFingerPrint: d9d203d3b46e619182bf8a9d238e5e75fd2ed790
+  OpayFingerPrint: 98d0bcca00ccdc5b213b16ff4c822043dd50098b
 
 PODFILE CHECKSUM: 081289187c13ce608692d2766c05c6e2df3865bd
 

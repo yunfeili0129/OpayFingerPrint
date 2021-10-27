@@ -86,15 +86,50 @@
 }
 -(void)uploadBlackBox:(NSString *)url blackBox:(NSString *)blackBox deviceId:(NSString *)deviceId userId:(NSString *)userId
 {
-    NSMutableDictionary *mdic=[NSMutableDictionary dictionary];
-    if (userId!=nil) {
-        [mdic setValue:userId forKey:@"userId"];
+    NSLog(@"请求的url:%@",url);
+    
+    NSMutableDictionary *dic=[NSMutableDictionary dictionary];
+    if (blackBox!=nil) {
+        [dic setValue:blackBox forKey:@"blackBox"];
     }
     if (deviceId!=nil) {
-        [mdic setValue:deviceId forKey:@"deviceId"];
+        [dic setValue:deviceId forKey:@"deviceId"];
     }
-    if (blackBox!=nil) {
-        [mdic setValue:blackBox forKey:@"blackBox"];
+    if (deviceId!=nil) {
+        [dic setValue:deviceId forKey:@"deviceId"];
     }
+    [dic setValue:@"iOS" forKey:@"deviceType"];
+    NSError *error = nil;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&error];
+    NSString * jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    NSLog(@"参数:%@",dic);
+    NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
+    request.HTTPMethod = @"POST";
+    
+    [request setHTTPBody:[jsonString dataUsingEncoding:NSUTF8StringEncoding]];
+   
+    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    
+    [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    //将token封装入请求头
+    
+    request.timeoutInterval = 30;
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (data) {
+                NSDictionary *responseDic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+                
+                if ((responseDic != nil) && ([responseDic count] != 0)) {
+                    NSLog(@"返回的结果:%@",responseDic);
+                } else {
+                    
+                }
+            } else {
+                
+            }
+        });
+    }];
+    [sessionDataTask resume];
 }
 @end
