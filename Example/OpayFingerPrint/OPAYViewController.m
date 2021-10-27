@@ -7,7 +7,7 @@
 //
 
 #import "OPAYViewController.h"
-
+#import "OpayDeviceTool.h"
 @interface OPAYViewController ()
 
 @end

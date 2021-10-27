@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "OpayDeviceTool.h"
 
 FOUNDATION_EXPORT double OpayFingerPrintVersionNumber;
 FOUNDATION_EXPORT const unsigned char OpayFingerPrintVersionString[];
