@@ -84,7 +84,7 @@
     NSLog(@"同盾设备指纹数据: %@", blackBox);
     return blackBox;
 }
--(void)uploadBlackBox:(NSString *)url blackBox:(NSString *)blackBox deviceId:(NSString *)deviceId userId:(NSString *)userId
+-(void)upload:(NSString *)url blackBox:(NSString *)blackBox deviceId:(NSString *)deviceId userId:(NSString *)userId
 {
     NSLog(@"请求的url:%@",url);
     

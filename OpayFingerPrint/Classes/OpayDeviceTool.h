@@ -35,7 +35,7 @@ typedef enum : NSUInteger {
 
 -(initStatus)getDeviceStatus;
 
--(void)uploadBlackBox:(NSString *)url blackBox:(NSString *)blackBox deviceId:(NSString *)deviceId userId:(NSString *)userId;
+-(void)upload:(NSString *)url blackBox:(NSString *)blackBox deviceId:(NSString *)deviceId userId:(NSString *)userId;
 
 @property(nonatomic,weak)id<OpayDeviceToolProtocol>delegate;
 
