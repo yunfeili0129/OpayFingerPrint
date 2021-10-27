@@ -36,7 +36,7 @@
     * SDK具有反调试功能，当使⽤用xcode调试时(开发测试阶段),请取消下⾯面的代码注释,
     * 关闭反调试功能,否则使⽤用xcode调试会闪退。上架打包的时候需要删除或者注释掉这
     * ⾏行行代码来开启反调试功能,这样能保护APP不不容易易被调试。 */
-    //[optionDic setValue:options.allowd forKey:@"allowd"];  // TODO
+    [optionDic setValue:options.allowd forKey:@"allowd"];  // TODO
     // 指定线上环境的url
     [optionDic setValue:options.profileUrl forKey:@"profileUrl"]; // TODO
     // 此处替换为您的合作⽅方标识
