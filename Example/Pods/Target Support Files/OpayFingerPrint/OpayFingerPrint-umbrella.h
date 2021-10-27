@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "FMDeviceManager.h"
+#import "OpayDeviceOptions.h"
 #import "OpayDeviceTool.h"
 
 FOUNDATION_EXPORT double OpayFingerPrintVersionNumber;

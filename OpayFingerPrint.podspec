@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpayFingerPrint'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'OpayFingerPrint指纹'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'OpayFingerPrint' => ['OpayFingerPrint/Assets/*.png']
   # }
 
-  s.public_header_files = 'OpayFingerPrint/Classes/OpayDeviceTool.h'
+  s.public_header_files = 'OpayFingerPrint/Classes/*.h'
   s.library = 'resolv.9'
   s.vendored_libraries = 'libFMDeviceManager.a'
   s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
